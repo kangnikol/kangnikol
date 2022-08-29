@@ -32,7 +32,7 @@ func GetBio() Bio {
 
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=kangnikol&show_icons=true&theme=radical">
 
-Nicholas Alvi Saputra  
+## Nicholas Alvi Saputra  
 Software Engineer
 
 ---
