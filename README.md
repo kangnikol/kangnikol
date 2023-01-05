@@ -19,8 +19,8 @@ func main() {
 func GetBio() Bio {
 	return Bio{
 		"- Quick bio                        ": "Tech, Rhythm Game",
-		"- I'm currently working on         ": "Lumen Microservices",,
-		"- I'm currently learning           ": []string{"NodeJS", "ReactJS", "Laravel", "Lumen"},
+		"- I'm currently working on         ": "ReactJS",
+		"- I'm currently learning           ": []string{"NodeJS", "ReactJS"},
 		"- Languages                        ": []string{"PHP", "Typescript", "Javascript"},
 	}
 }
