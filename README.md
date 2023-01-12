@@ -30,7 +30,7 @@ func GetBio() Bio {
 
 ### Hello, thanks for visiting my Github account! 👋
 
-![kangnikol's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangnikol&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=94e2d5)
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=kangnikol&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=94e2d5" />
 
 Nicholas Alvi Saputra  
 Software Engineer
