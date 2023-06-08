@@ -1,29 +1,34 @@
 <h1 align="center"> Nicholas Alvi Saputra </h1>
 
-```golang
+```javascript
 
-package main
+import React from "react"
 
-import (
-	"fmt"
-)
-
-type Bio map[string]interface{}
-
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
+const GetBio = () => {
+  const bio = [
+    {
+      quickBio: ["Tech", "Rhythm Games"],
+      workedOn: "ReactJS",
+      learning: ["NodeJS", "ReactJS"],
+      lang: ["Javascript", "Typescript", "PHP"],
+    },
+  ]
+  return (
+    <>
+      {bio.map((e, i) => (
+        <div key={i}>
+          <p>{e.quickBio.join(", ")}</p>
+          <p>{e.workedOn}</p>
+          <p>{e.learning.join(", ")}</p>
+          <p>{e.lang.join(", ")}</p>
+        </div>
+      ))}
+    </>
+  )
 }
 
-func GetBio() Bio {
-	return Bio{
-		"- Quick bio                        ": "Tech, Rhythm Game",
-		"- I'm currently working on         ": "ReactJS",
-		"- I'm currently learning           ": []string{"NodeJS", "ReactJS"},
-		"- Languages                        ": []string{"PHP", "Typescript", "Javascript"},
-	}
-}
+export default GetBio
+
 ```
 
 <details align="center">
