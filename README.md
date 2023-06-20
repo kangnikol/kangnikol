@@ -34,9 +34,7 @@ export default GetBio
 
 ### Hello, thanks for visiting my Github account! 👋
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=kangnikol&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=94e2d5" />
-
-<img align="right" style="padding-top:2rem;padding-bottom:2rem" src="https://github-readme-tech-stack.vercel.app/api/cards?lineCount=2&theme=catppuccin_mocha&line1=react%2Creactjs%2C04f5d6%3Bjavascript%2Cjavascript%2Ce1addc%3Bnext.js%2Cnextjs%2C03cdbb%3B&line2=tailwindcss%2Ctailwindcss%2Caaa000%3Bsass%2Csass%2C8715ca%3Bheadlessui%2Cheadlessui%2C8bb4db%3B" alt="My Tech Stack" />
+<img align="right" class="yeah" src="https://github-readme-tech-stack.vercel.app/api/cards?lineCount=2&theme=catppuccin_mocha&line1=react%2Creactjs%2C04f5d6%3Bjavascript%2Cjavascript%2Ce1addc%3Bnext.js%2Cnextjs%2C03cdbb%3B&line2=tailwindcss%2Ctailwindcss%2Caaa000%3Bsass%2Csass%2C8715ca%3Bheadlessui%2Cheadlessui%2C8bb4db%3B" alt="My Tech Stack" />
 
 Nicholas Alvi Saputra  
 Software Engineer
