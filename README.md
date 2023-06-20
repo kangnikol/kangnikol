@@ -1,4 +1,4 @@
-![image](https://github.com/kangnikol/kangnikol/assets/84432037/ed753274-3cd5-4fa4-a41e-ed8153c5ed07)<h1 align="center"> Nicholas Alvi Saputra </h1>
+<h1 align="center"> Nicholas Alvi Saputra </h1>
 
 ```javascript
 
