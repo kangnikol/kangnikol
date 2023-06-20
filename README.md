@@ -28,6 +28,7 @@ const GetBio = () => {
 }
 
 export default GetBio
+```
 
 ```markdown
 
