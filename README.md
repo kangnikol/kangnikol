@@ -30,8 +30,6 @@ const GetBio = () => {
 export default GetBio
 ```
 
-```markdown
-
 <details align="center">
 
 ### Hello, thanks for visiting my Github account! 👋
