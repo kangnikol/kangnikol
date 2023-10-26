@@ -17,10 +17,10 @@ const GetBio = () => {
     <>
       {bio.map((e, i) => (
         <div key={i}>
-          <p>{e.quickBio.join(", ")}</p>
-          <p>{e.workedOn}</p>
-          <p>{e.learning.join(", ")}</p>
-          <p>{e.lang.join(", ")}</p>
+          <p>Quick Bio: {e.quickBio.join(", ")}</p>
+          <p>Currently Worked on: {e.workedOn}</p>
+          <p>Currently Learning on: {e.learning.join(", ")}</p>
+          <p>Programming Language: {e.lang.join(", ")}</p>
         </div>
       ))}
     </>
