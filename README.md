@@ -2,9 +2,15 @@
 
 ```javascript
 
-import React from "react"
+import React from "react";
 
 const GetBio = () => {
+  const style = {
+    height: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
   const bio = [
     {
       quickBio: ["Tech", "Rhythm Games"],
@@ -12,22 +18,25 @@ const GetBio = () => {
       learning: ["NodeJS", "ReactJS"],
       lang: ["Javascript", "Typescript", "PHP"],
     },
-  ]
+  ];
   return (
     <>
-      {bio.map((e, i) => (
-        <div key={i}>
-          <p>Quick Bio: {e.quickBio.join(", ")}</p>
-          <p>Currently Worked on: {e.workedOn}</p>
-          <p>Currently Learning on: {e.learning.join(", ")}</p>
-          <p>Programming Language: {e.lang.join(", ")}</p>
-        </div>
-      ))}
+      <div style={style}>
+        {bio.map((e, i) => (
+          <div key={i}>
+            <p>Quick Bio: {e.quickBio.join(", ")}</p>
+            <p>Currently Worked on: {e.workedOn}</p>
+            <p>Currently Learning on: {e.learning.join(", ")}</p>
+            <p>Programming Language: {e.lang.join(", ")}</p>
+          </div>
+        ))}
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default GetBio
+export default GetBio;
+
 ```
 
 <details align="center">
